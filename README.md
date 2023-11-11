@@ -1,1 +1,1 @@
-# jakarta-ee-data-sources-hands-on
+# Jakarta EE Datasources hands-on
