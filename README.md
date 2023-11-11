@@ -25,6 +25,10 @@
 
 curl localhost:8080/datasource-jpa-1.0-SNAPSHOT/rest/company/1
 
+ <img src= "Source_Code/01/UML_Diagrams/Class_Diagram.png" width=789 height=482>
+
+  <img src= "Source_Code/01/UML_Diagrams/Sequence_Diagram.png" width=574 height=330>
+
 ## Example 02 - Creating a datasource with default JNDI name (jdbc/__default) and JDBC
 
 <a href="Source_Code/02/datasource-jdbc">02 - Creating a datasource with default JNDI name and JDBC</a> 
