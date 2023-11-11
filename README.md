@@ -38,3 +38,7 @@ curl localhost:8080/datasource-jpa-1.0-SNAPSHOT/rest/company/1
  ./asadmin redeploy --name datasource-jdbc-1.0-SNAPSHOT target/datasource-jdbc-1.0-SNAPSHOT.war (Redeploy to the Glassfish/Payara. The parameter --name only worked when I used the name of the war file, without war).
 
 curl localhost:8080/datasource-jdbc-1.0-SNAPSHOT/rest/company/1
+
+<img src= "Source_Code/02/UML_Diagrams/Class_Diagram.png" width=860 height=326>
+
+  <img src= "Source_Code/02/UML_Diagrams/Sequence_Diagram.png" width=574 height=330>
