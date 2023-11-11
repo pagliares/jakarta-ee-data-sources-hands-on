@@ -12,8 +12,8 @@
   
  ./asadmin version (version of Payara/Glassfish installed)
   
- ./asadmin deploy target/Data_Source_JPA-1.0-SNAPSHOT.war (Deploy to the Glassfish/Payara)
+ ./asadmin deploy target/datasource-jpa-1.0-SNAPSHOT.war (Deploy to the Glassfish/Payara)
   
- ./asadmin redeploy --name Data_Source_JPA-1.0-SNAPSHOT target/Data_Source_JPA-1.0-SNAPSHOT.war (Redeploy to the Glassfish/Payara. The parameter --name only worked when I used the name of the war file, without war).
+ ./asadmin redeploy --name datasource-jpa-1.0-SNAPSHOT target/datasource-jpa-1.0-SNAPSHOT.war (Redeploy to the Glassfish/Payara. The parameter --name only worked when I used the name of the war file, without war).
 
- curl localhost:8080/Data_Source_JPA-1.0-SNAPSHOT/rest/company/1
+curl localhost:8080/datasource-jpa-1.0-SNAPSHOT/rest/company/1
