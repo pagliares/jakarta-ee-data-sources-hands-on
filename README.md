@@ -19,7 +19,10 @@
 curl localhost:8080/datasource-jpa-1.0-SNAPSHOT/rest/company/1
 
 
-## Example 01 - Creating a datasource with default JNDI name (jdbc/__default)
+## Example 01 - Creating a datasource with default JNDI name (jdbc/__default) and JPA
 
-<a href="Source_Code/01/datasource-jpa">01 - Creating a datasource with default JNDI name</a> 
+<a href="Source_Code/01/datasource-jpa">01 - Creating a datasource with default JNDI name and JPA</a> 
 
+## Example 02 - Creating a datasource with default JNDI name (jdbc/__default) and JDBC
+
+<a href="Source_Code/02/datasource-jdbc">02 - Creating a datasource with default JNDI name and JDBC</a> 
