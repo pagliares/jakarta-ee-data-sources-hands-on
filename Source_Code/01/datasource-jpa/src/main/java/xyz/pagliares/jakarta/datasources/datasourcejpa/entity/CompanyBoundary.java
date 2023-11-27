@@ -30,6 +30,7 @@ public class CompanyBoundary {
     private EntityManager em;
 
     public Company findCompany(Long id) {
+
         return em.find(Company.class, id);
     }
 }
